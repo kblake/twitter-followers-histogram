@@ -1,22 +1,22 @@
 require 'rubygems'
 require 'rake'
 
-begin
-  require 'jeweler'
-  Jeweler::Tasks.new do |gem|
-    gem.name = "twitter-followers-histogram"
-    gem.summary = %Q{Histogram showing the amount of followers your followers have}
-    gem.description = %Q{Histogram showing the amount of followers your followers have}
-    gem.email = "karmenblake@gmail.com"
-    gem.homepage = "http://github.com/kblake/twitter-followers-histogram"
-    gem.authors = ["Karmen Blake"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
-  end
-  Jeweler::GemcutterTasks.new
-rescue LoadError
-  puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
-end
+#begin
+  #require 'jeweler'
+  #Jeweler::Tasks.new do |gem|
+    #gem.name = "twitter-followers-histogram"
+    #gem.summary = %Q{Histogram showing the amount of followers your followers have}
+    #gem.description = %Q{Histogram showing the amount of followers your followers have}
+    #gem.email = "karmenblake@gmail.com"
+    #gem.homepage = "http://github.com/kblake/twitter-followers-histogram"
+    #gem.authors = ["Karmen Blake"]
+    #gem.add_development_dependency "rspec", ">= 1.2.9"
+    ## gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+  #end
+  #Jeweler::GemcutterTasks.new
+#rescue LoadError
+  #puts "Jeweler (or a dependency) not available. Install it with: gem install jeweler"
+#end
 
 require 'spec/rake/spectask'
 Spec::Rake::SpecTask.new(:spec) do |spec|
@@ -30,7 +30,7 @@ Spec::Rake::SpecTask.new(:rcov) do |spec|
   spec.rcov = true
 end
 
-task :spec => :check_dependencies
+#task :spec => :check_dependencies
 
 task :default => :spec
 
