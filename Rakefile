@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "twitter-followers-histogram"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Histogram showing the amount of followers your followers have}
+    gem.description = %Q{Histogram showing the amount of followers your followers have}
     gem.email = "karmenblake@gmail.com"
     gem.homepage = "http://github.com/kblake/twitter-followers-histogram"
     gem.authors = ["Karmen Blake"]

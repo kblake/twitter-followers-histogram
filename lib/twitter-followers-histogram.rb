@@ -1,0 +1,3 @@
+require 'twitter'
+require 'credentials'
+
