@@ -25,7 +25,8 @@ Gem::Specification.new do |s|
      "lib/twitter-followers-histogram.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb",
-     "spec/twitter-followers-histogram_spec.rb"
+     "spec/twitter-followers-histogram_spec.rb",
+     "twitter-followers-histogram.gemspec"
   ]
   s.homepage = %q{http://github.com/kblake/twitter-followers-histogram}
   s.rdoc_options = ["--charset=UTF-8"]
